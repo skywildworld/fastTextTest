@@ -1,4 +1,4 @@
-
+package com.fastText
 
 import scala.collection.mutable
 
@@ -68,6 +68,7 @@ case class Args(
   var maxn: Int = 6,
   var thread: Int = 12, // maybe not need any more
   var t: Double = 1e-4,
+  var label: String = "__label__",
   var verbose: Int = 2,
   var pretrainedVectors: String = "",
   var saveOutput: Int = 0
